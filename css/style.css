@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-image: url("../images/Background.png");
+}
+
+.titleimg {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: auto;
+}
+
+
+nav {
+    background-color: #D9D9D9;
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    font-weight: 50%;
+    font-weight: 20px;
+}
+
+.cred {
+    font-size: x-small;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #D9D9D9;
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar {
+    min-width: 500px;
+}
+
+nav ul {
+    min-width: 500px;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: flex-end
+}
+
+nav ul li a {
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.home {
+    width: 80px;
+    Height: auto;
+    transition: 0.3s;
+}
+
+.home:hover path {
+    fill: black;
+}
+
+.homes {
+    width: 115px;
+    Height: auto;
+}
+
+.homes:hover path {
+    fill: #9CCF8C;
+}
+
+main {
+    min-width: 427px;
+}
+
+.etc {
+    margin: 45px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700%;
+    font-size: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.funfacts {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400%;
+    margin: 25px;
+}
+
+.pet {
+    padding-bottom: 10px;
+}
+
+.Tropics {
+    padding-bottom: 10px;
+}
+
+.productivity {
+    padding-bottom: 10px;
+}
+
+.bamboo {
+    padding-bottom: 10px;
+}
+
+.Plants {
+    padding-bottom: 15px;
+}
+
+.about {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400%;
+    margin: 25px;
+}
+
+.text {
+    padding-left: 38px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 20px;
+}
+
+.himg {
+    padding-left: 30px;
+
+}
+
+.hstats {
+    Padding-left: 35px;
+    padding-top: 15px;
+}
+
+.general {
+    padding-top: 35px;
+    padding-left: 32px;
+}
+
+p {
+    text-indent: 15px;
+    padding-left: 38px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 20px;
+    padding-right: 30px
+}
+
+.rimg {
+    padding-left: 30px;
+
+}
+
+.tree {
+    padding-top: 30px;
+    padding-left: 38px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 20px;
+}
+
+.rstats {
+    Padding-left: 35px;
+    padding-top: 15px;
+}
+
+.root {
+    color: black;
+}
+
+.pimg {
+    padding-left: 30px;
+
+}
+
+
+.pstats {
+    Padding-left: 35px;
+    padding-top: 15px;
+}
+
+.mimg {
+    padding-left: 30px;
+
+}
+
+.mstats {
+    Padding-left: 35px;
+    padding-top: 15px;
+}
+
+.oimg {
+    padding-left: 30px;
+
+}
+
+.ostats {
+    Padding-left: 35px;
+    padding-top: 15px;
+}
+
+.imgcred {
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #D9D9D9;
+    font-weight: 15px;
+}
+
+.tld {
+    padding-top: 10px;
+    width: 60px;
+    Height: auto;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    text-decoration: underline;
+    color: black;
+}
+
+.grid-parent {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+@media screen and (max-width: 360px) {
+
+    .grid-parent {
+        grid-template-columns: 1fr;
+    }
+
+}
