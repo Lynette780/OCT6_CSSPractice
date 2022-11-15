@@ -44,7 +44,7 @@ nav {
 }
 
 nav ul {
-    
+
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     margin-left: 0px;
@@ -108,13 +108,13 @@ main {
     min-width: auto;
 }
 
-.beginner{
+.beginner {
     font-weight: 700%;
     font-size: bold;
     font-size: x-large;
 }
 
-.plant{
+.plant {
     font-weight: 700%;
     font-size: bold;
     font-size: large;
@@ -332,11 +332,11 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .beginner{
+    .beginner {
         font-weight: 200%;
     }
-    
-    .plant{
+
+    .plant {
         font-weight: 200%;
     }
 
