@@ -154,9 +154,9 @@ h1 {
 }
 
 .button{
-    margin-top: 10px;
+    margin-top: 27px;
     margin-left:40px;
-    margin-bottom: 40px;
+   margin-bottom: 20px;
     color:black;
     background-color: #d9d9d97d;
     font-family: 'Roboto', sans-serif;
@@ -183,7 +183,7 @@ h1 {
 
 .general {
     padding-top: 35px;
-    padding-left: 32px;
+    padding-left: 15px;
 }
 
 p {
