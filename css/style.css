@@ -93,12 +93,21 @@ nav ul li a:hover {
     fill: #9CCF8C;
 }
 
+.wrapper{
+    margin-left: 25px;
+    margin-right:25px;
+}
+
 main {
     min-width: 427px;
 }
 
 .etc {
-    margin: 45px;
+    display: block;
+    margin-top:45px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
