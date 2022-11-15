@@ -148,6 +148,29 @@ h1 {
     font-weight: 20px;
 }
 
+.flex{
+    display: flex;
+    justify-content:flex-start
+}
+
+.button{
+    margin-top: 10px;
+    margin-left:40px;
+    margin-bottom: 40px;
+    color:black;
+    background-color: #d9d9d97d;
+    font-family: 'Roboto', sans-serif;
+    font-size:medium;
+    text-decoration:none; 
+    display:inline-block; 
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border: 5px solid #9CCF8C;
+    border-radius: 12px;
+}
+
 .himg {
     padding-left: 30px;
 
@@ -225,7 +248,18 @@ p {
     padding-top: 15px;
 }
 
+.aimg {
+    padding-left: 30px;
+
+}
+
+.astats {
+    Padding-left: 35px;
+    padding-top: 15px;
+}
+
 .imgcred {
+    display: block;
     padding-left: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: small;
@@ -246,11 +280,18 @@ footer {
     Height: auto;
 }
 
+.black{
+    color: black;
+}
+
 .logo {
+    list-style-type: none;
     font-family: 'Roboto', sans-serif;
     font-size: small;
     text-decoration: underline;
-    color: black;
+    padding:25px;
+    display: flex;
+    justify-content:space-evenly
 }
 
 .grid-parent {
@@ -258,7 +299,7 @@ footer {
     grid-template-columns: 2fr 2fr;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 900px) {
 
     .grid-parent {
         grid-template-columns: 1fr;
